@@ -30,34 +30,32 @@
         </div>
 
         <div>
-  <label class="block text-sm font-medium text-gray-700 mb-2">
-    Favorite Business
-  </label>
+          <label class="block text-sm font-medium text-gray-700 mb-2">
+            Favorite Business
+          </label>
 
-  <div class="space-y-2">
-    <label class="flex items-center space-x-2">
-      <input type="radio" value="bfh" v-model="form.tech">
-      <span>Business For Home</span>
-    </label>
+          <div class="space-y-2">
+            <label class="flex items-center space-x-2">
+              <input type="radio" value="bfh" v-model="form.tech">
+              <span>Business For Home</span>
+            </label>
 
-    <label class="flex items-center space-x-2">
-      <input type="radio" value="online" v-model="form.tech">
-      <span>Online Business</span>
-    </label>
+            <label class="flex items-center space-x-2">
+              <input type="radio" value="online" v-model="form.tech">
+              <span>Online Business</span>
+            </label>
 
-    <label class="flex items-center space-x-2">
-      <input type="radio" value="market" v-model="form.tech">
-      <span>Physical Market</span>
-    </label>
+            <label class="flex items-center space-x-2">
+              <input type="radio" value="market" v-model="form.tech">
+              <span>Physical Market</span>
+            </label>
 
-    <label class="flex items-center space-x-2">
-      <input type="radio" value="other" v-model="form.tech">
-      <span>Other</span>
-    </label>
-    <input type="text" v-model="form.location" placeholder="-3.35677,33.9765782"/>
-  </div>
-</div>
-
+            <label class="flex items-center space-x-2">
+              <input type="radio" value="other" v-model="form.tech">
+              <span>Other</span>
+            </label>
+            <input type="text" v-model="form.location" placeholder="-3.35677,33.9765782"/>
+          </div>
         </div>
 
         <div>
